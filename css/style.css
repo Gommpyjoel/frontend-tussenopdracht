@@ -1,23 +1,39 @@
 #center-container {
     max-width: 1000px;
-    margin: auto 0;
+    margin: 0 auto;
+    border: #9c6644 5px solid;
+    background-color: #ede0d4;
+}
+
+body {
+    margin: 0;
+   
+
+    
+}
+
+
+
+h1 {
+    margin-left: 2rem;
 }
 
 nav a {
-  
-    padding: 2rem;
+
+    padding: 1rem;
     text-decoration: none;
     color: white;
-   
-   
 
 }
+
 nav {
     background-color: #eddcd2;
-    margin: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     display: flex;
-    
-    margin-right:  5rem; 
+    text-align: center;
+    border-bottom: 2px solid #9c6644;
+
+
 }
 
 nav a:hover {
@@ -27,5 +43,39 @@ nav a:hover {
 
 .logo {
     background-color: #cb997e;
-    
+
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.midden {
+    display: flex;
+    flex: 1;
+    border-bottom: #9c6644 1px solid;
+}
+
+.verkoop {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+img {
+    border: 4px #eddcd2 solid;
+    max-width: 600px;
+    flex: 1;
+
+    margin: 2rem
+}
+
+.knop {
+    background-color: #cb997e;
+
+
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
 }
