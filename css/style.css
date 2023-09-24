@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ubuntu:wght@300&display=swap');
+
+
+
 #center-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -5,11 +9,13 @@
     background-color: #ede0d4;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 body {
     margin: 0;
-   
 
-    
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 
@@ -28,7 +34,7 @@ nav a {
 
 nav {
     background-color: #eddcd2;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     display: flex;
     text-align: center;
     border-bottom: 2px solid #9c6644;
@@ -41,17 +47,12 @@ nav a:hover {
     color: white;
 }
 
-.logo {
-    background-color: #cb997e;
 
-    padding: 1rem 1rem 1rem 1rem;
-
-}
 
 .midden {
     display: flex;
     flex: 1;
-    border-bottom: #9c6644 1px solid;
+    border-bottom: #9c6644 5px solid;
 }
 
 .verkoop {
@@ -78,4 +79,68 @@ img {
     color: white;
     text-align: center;
     border-radius: 10px;
+}
+
+.center {
+    display: flex;
+border-bottom: #9c6644 5px solid;
+}
+
+.punten {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    margin-left: 2rem;
+    
+}
+
+.om {
+    flex-direction: column;
+    display: flex;
+    flex: 1.5;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.gp {
+    display: flex;
+    text-align: center;
+
+    background-color: #b08968;
+    border-bottom: #7f5539 5px solid;
+    padding-top: 10px;
+}
+
+h6 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #b08968;
+    margin: 0;
+    padding-top: 30px ;
+    
+}
+
+img {
+    width: 245px;
+}
+
+.punten {
+    background-color: #ddbea9;
+    padding: 0.2rem 1rem 1rem 1rem;
+}
+.logo {
+    background-color: #cb997e;
+    max-width: 80px;
+    margin: 0rem;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #7f5539;
+    padding: 1rem;
+    color: white;
+}
+footer:hover {
+   text-decoration: underline;
 }
